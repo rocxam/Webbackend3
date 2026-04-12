@@ -3,10 +3,11 @@ const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
 
 // REGISTER
-exports.register = (req, res) => {
+exports.register = async (req, res) => {
     const { name, email, password, program, year } = req.body;
-
-    const hashedPassword = bcrypt.hashSync(password, 10);
+        try{
+            const hashedPassword = await
+            bcrypt.hashSync(password, 10);
 
     const sql = "INSERT INTO users (name, email, password, program, year) VALUES (?, ?, ?, ?, ?)";
 
@@ -15,6 +16,9 @@ exports.register = (req, res) => {
 
         res.json({ message: "User registered successfully" });
     });
+    } catch (err) {
+        res.status(500).json({ error: "Encryption failed"});
+    }
 };
 
 // LOGIN

@@ -9,12 +9,12 @@ The **Student Group Finder** is a web-based application designed to enhance coll
 * **Group Creation:** Students can form groups by course name, code, and location.
 * **Repository & Search:** Browse and filter available study groups by faculty or course.
 * **Study Sessions:** Schedule meetings with specific dates and times.
-* **Dashboard:** PErsonal overview of joined groups and upcoming sessions. 
+* **Dashboard:** Personal overview of joined groups and upcoming sessions. 
 
 ## Tech Stack
 * **Frontend:** React.js
 * **Backend:** Node.js (Express)
-* **Database** MongoDB
+* **Database** MYSQL
 * **Authentication:** JWT (JSON Web Tokens)
 
 ## Contributors

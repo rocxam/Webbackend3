@@ -16,3 +16,11 @@ The **Student Group Finder** is a web-based application designed to enhance coll
 * **Backend:** Node.js (Express)
 * **Database** MongoDB
 * **Authentication:** JWT (JSON Web Tokens)
+
+## Contributors
+Kong Rocxam James S25B13/084
+Tashobya Isaac S25B13/014
+Keza Daniel S25B13/020
+Akampa Blessing S25B13/027
+Ogwang Andrew S25B13/050
+Kirumira Jordan S25B13/123
